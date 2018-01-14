@@ -1,0 +1,94 @@
+.header{
+	width: 100%;
+	height: 200px;
+	background-color:azure;
+	opacity: 0.9;
+}
+.logo{
+	width: 150px;
+	height: 150px;;
+	border-radius: 100px;
+	position: relative;
+	top: 20px;
+	left: 80px;
+	float: left;
+	
+	
+}
+
+.slogan{
+	text-transform: capitalize;
+	font-size: 50px;
+	font-weight: bold;
+	color: #5086D0;
+	position: relative;
+	left: 500px;
+	top: 120px;
+}
+.form-alani{
+	position: relative;
+	float: right;
+	width: 10%;
+	height: auto;
+	min-height: 50px;
+	top: 100px;
+	right: 200px;
+	
+}
+#t1, #t2,#t3,#t4{
+	width: 90px;
+	height: 20px;
+}
+.form-alani input[type="text"],input[type="password"],input[type="submit"]{
+	width: 90px;
+	height: 20px;
+}
+.form-alani input[type="password"]:focus{
+	background-color: antiquewhite;
+	color: #3B3B3B;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.form-alani input[type="text"]:focus{
+	background-color: antiquewhite;
+	color: #3B3B3B;
+	font-weight: bold;
+	font-size: 15px;
+}
+.form-alani input[type="submit"]{
+	height: 27px;
+	color: beige;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: capitalize;
+	background-color: #4267C9;
+	cursor: pointer;
+}
+
+.form-alani a{
+	display: block;
+	font-size: 18px; 
+	text-transform: capitalize;
+	text-decoration: none;
+	color: #0E0D0D;
+	padding: 2px 5px;
+	background-color: #9F9F9F;	
+	
+}
+.form-alani a:hover{
+	background-color: #4B5FD7;
+	color: beige;
+	transition-duration: 0.8s;
+}
+
+
+
+
+
+
+
+
+
+
+

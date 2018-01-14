@@ -1,0 +1,232 @@
+.orta-govde-tas{
+	width: 80%;
+	height: auto;
+	min-height: 1000px;
+	background-color: aliceblue;
+	margin: 10px auto;
+	opacity: 0.8;
+}
+
+.sol-menu-tas{
+	position: relative;
+	float: left;
+	top: 10px;
+	left: 1%;
+	width: 17%;
+	height: auto;
+	min-height: 600px;
+	display: table;
+	border: 1px solid black;
+	
+}
+
+.sol-menu-tas ul{
+	list-style: none;
+}
+.sol-menu-tas li a{
+	text-decoration: none;
+	display: block;
+	padding: 6px 15px;
+	color: #4B5CE7;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: capitalize;
+	
+}
+.sol-menu-tas li a:hover{
+	color: beige;
+	background-color: #3962E3;
+	transition-duration: 0.8s;
+}
+
+
+
+/*
+sol menu ayarları bitti
+
+
+*/
+
+
+.orta-icerik-tas{
+	position: relative;
+	float: left;
+	margin: 10px auto;
+	width: 60%;
+	height: auto;
+	min-height: 600px;
+	display: table;
+	border: 1px solid #2927DB;
+	left: 3%;
+	right: 3%;
+}
+
+
+
+
+
+.orta-icerik{
+	width: 90%;
+	height: auto;
+	min-height: 300px; 
+	border: 1px solid black;
+	margin: 20px auto;
+	box-shadow: 0 7px 20px 4px #808080;
+    z-index: 5px;
+}
+
+.makala-baslik{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #468EF0;
+	text-transform: capitalize;
+	padding: 2px 5px;
+	
+}
+
+.icerik-baslik ul{
+	list-style: none;
+	text-align: center;
+	
+}
+.icerik-baslik li{
+	display: inline-block;
+	margin-left: 10px;
+	
+}
+
+.icerik-baslik li a{
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+	padding: 8px 40px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #2555C5;
+	
+}
+
+.icerik-baslik li a:hover{
+	background-color: #1D60D5;
+	color: beige;
+	transition-duration: 0.8s;
+}
+.resim-tas{
+
+	margin: 10px auto;
+	border: 1px solid black;
+	width: 98%;
+	height: 200px
+	
+}
+.icerik-res{
+	
+	width: 20%;
+	height: 150px;
+	border:  1px solid black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.resim-tas span{
+	position: relative;
+	font-size: 20px;
+	top: 10px;
+	left: 15px;
+	color: dimgray;
+}
+
+.icerik-alt{
+	position: relative;
+	background-color: #317EDB;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 1px;
+}
+
+
+.icerik-alt a{
+	position: relative;
+	float: right;
+	text-decoration: none;
+	display: block;
+	font-size: 25px;
+	padding: 12px 35px;
+	color: azure;
+}
+
+
+.icerik-alt a:hover{
+	color: #2876EF;
+	background-color: beige;
+	transition-duration: 0.8s;
+}
+
+
+/*
+orta icerik ayarları bitti
+
+
+*/
+
+
+
+
+
+.sag-menu-tas{
+	position: relative;
+	float: right;
+	top: 10px;
+	right: 1%;
+	width: 17%;
+	height: auto;
+	min-height: 600px;
+	display: table;
+	border: 1px solid black;
+}
+
+.sag-menu-icerik{
+	width: 95%;
+	height: auto;
+	min-height: 300px;
+	border: 1px solid black;
+	margin: 10px auto;
+	position: relative;
+	top: 20px;
+    box-shadow: 0 7px 20px 2px #808080;
+    z-index: 5px;
+	
+}
+
+
+.sag-menu-icerik-baslik{
+	text-align: center;
+	font-weight: bold;
+	font-size:30px;
+	width: 100%;
+	height: 40px;
+	text-transform: capitalize;
+	background-color: #29A3E7;
+	color: beige;
+	border-radius: 15px;
+	margin-top: -15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+sag menu ayarları bitti
+
+
+*/

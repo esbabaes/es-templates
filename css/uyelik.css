@@ -1,0 +1,208 @@
+.uyelik-conteiner
+{
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+	background-image: url(../kaynak/arka-plan/arka-1.png);
+	background-attachment: fixed; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: table;
+}
+
+
+.uyelik-tas{
+    width: 80%;
+    height: auto;
+    min-height: 1000px;
+    background-color: aliceblue;
+    margin: 10px auto;
+    opacity: 0.8;
+    text-align: center;
+    border: 5px solid gray;
+}
+
+
+.uyelik-form{
+
+margin: 100px auto;
+border: 3px solid black;
+clear: both;
+position: relative;
+text-align: center;
+
+width: 60%;
+height: auto;
+min-height: 200px;
+
+}
+
+#uyelik-form{
+ position: relative;
+text-align: center;
+
+width: 90%;
+margin: 10px auto;
+}
+.uye-tablo{
+	width: 80%;
+	height: auto;
+	min-height: 600px;
+	border: 1px solid dimgray;
+	margin: 10px auto;
+	text-align: left;
+	
+}
+
+
+
+
+
+.uye-tablo label{
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #4374E8;
+	font-size: 28px;
+	padding: 6px 25px;
+	cursor: pointer;
+	
+}
+
+.uye-tablo label:hover{
+	color: beige;
+	transition-duration: 1s;
+}
+
+
+
+.uye-tablo  input[type="text"]{
+	
+	width: 99%;
+	height: 42px;
+}
+
+.uye-tablo  input[type="text"]:focus{
+	
+	 box-shadow: inset 1px 1px 1px 1px red;
+
+}
+
+
+
+
+
+.uye-tablo  input[type="tel"]{
+	
+	width: 99%;
+	height: 42px;
+}
+
+
+.uye-tablo  input[type="email"]{
+	
+	width: 99%;
+	height: 42px;
+}
+
+.uye-tablo  input[type="password"]{
+	
+	width: 99%;
+	height: 42px;
+}
+
+.uye-tablo  input[type="submit"]{
+	
+	width: 99%;
+	height: 42px;
+	
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #4374E8;
+	font-size: 28px;
+	padding: 6px 25px;
+	cursor: pointer;
+}
+
+.uye-tablo  input[type="submit"]:hover{
+	background-color: #3E81E8;
+	color: beige;
+	transition-duration: 1s;
+}
+
+
+
+
+
+.uye-tablo  input[type="reset"]{
+	
+	width: 100%;
+	height: 42px;
+	
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #4374E8;
+	font-size: 28px;
+	padding: 6px 25px;
+	cursor: pointer;
+}
+
+.uye-tablo  input[type="reset"]:hover{
+	background-color: #3E81E8;
+	color: beige;
+	transition-duration: 1s;
+}
+
+.uye-tablo span {
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 5px 10px;
+	color: #4374E8;
+}
+
+
+
+
+
+
+
+
+
+
+.uye-td-1 {
+	width: 32%;
+	height: auto;
+	
+}
+.uye-td-1:hover{
+	background-color: #3E81E8;
+	transition-duration: 1s;
+}
+
+
+.uye-td-2{
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,169 @@
+.animasyon-tas{
+	width: 100%;
+	height: 250px;
+	background-color: beige;
+	margin: 10px auto;
+	position: relative;
+}
+
+.animaston{
+	width: 200px;
+	height: auto;
+	margin: 10px auto;
+	text-transform: capitalize;
+	font-size: 20px;
+	font-weight: bold;
+	color: cadetblue;
+		
+}
+.at{
+	width: 25px;
+	height: 25px;
+}
+.ani-1{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	left: 20px;
+	margin: 5px;
+	border-bottom: 1px solid black;
+	animation-name: ani-1;
+	animation-delay: 3s;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+	animation-duration: 35s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ani-1{
+	0%{ left: 1%;
+		
+	}
+	
+	100%{
+		left: 96%;
+		transform: rotateY(180deg);
+	}
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+/* animasyon 1 sonu  */
+
+
+
+
+
+.ani-2{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	left: 20px;
+	margin: 5px;
+	border-bottom: 1px solid black;
+	animation-name: ani-2;
+	animation-delay: 4s;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ani-2{
+	0%{ left: 1%;
+		
+	}
+	
+	100%{
+		left: 96%;
+		transform: rotateY(180deg);
+	}
+	
+	
+	
+	
+	
+}
+
+
+
+/* animasyon 1 sonu  */
+
+.ani-3{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	left: 20px;
+	margin: 5px;
+	border-bottom: 1px solid black;
+	animation-name: ani-3;
+	animation-delay: 2s;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ani-3{
+	0%{ left: 1%;
+		
+	}
+	
+	100%{
+		left: 96%;
+		transform: rotateY(180deg);
+	}
+	
+	
+	
+	
+	
+}
+/* animasyon 1 sonu  */
+
+
+
+.ani-4{
+width: 25px;
+	height: 25px;
+	position: relative;
+	left: 20px;
+	margin: 5px;
+	border-bottom: 1px solid black;
+	animation-name: ani-4;
+	animation-delay: 2s;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+	animation-duration: 25s;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes ani-4{
+	0%{ left: 1%;
+		
+	}
+	
+	100%{
+		left: 96%;
+		transform: rotateY(180deg);
+	}
+	
+	
+	
+	
+	
+}
+/* animasyon 1 sonu  */
+
+
+
+
