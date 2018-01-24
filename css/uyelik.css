@@ -66,6 +66,7 @@ margin: 10px auto;
 	font-size: 28px;
 	padding: 6px 25px;
 	cursor: pointer;
+	display: block;
 	
 }
 
@@ -84,7 +85,8 @@ margin: 10px auto;
 
 .uye-tablo  input[type="text"]:focus{
 	
-	 box-shadow: inset 1px 1px 1px 1px red;
+	 box-shadow: inset 0px 0px 0px 0.5px blue;
+	background-color: #F3F5E2;
 
 }
 
@@ -98,6 +100,17 @@ margin: 10px auto;
 	height: 42px;
 }
 
+.uye-tablo  input[type="tel"]:focus{
+	
+	 box-shadow: inset 0px 0px 0px 0.5px blue;
+	background-color: #F3F5E2;
+
+}
+
+
+
+
+
 
 .uye-tablo  input[type="email"]{
 	
@@ -105,11 +118,29 @@ margin: 10px auto;
 	height: 42px;
 }
 
+.uye-tablo  input[type="email"]:focus{
+	
+	 box-shadow: inset 0px 0px 0px 0.5px blue;
+	background-color: #F3F5E2;
+
+}
+
+
+
 .uye-tablo  input[type="password"]{
 	
 	width: 99%;
 	height: 42px;
 }
+
+
+.uye-tablo  input[type="password"]:focus{
+	
+	 box-shadow: inset 0px 0px 0px 0.5px blue;
+	background-color: #F3F5E2;
+
+}
+
 
 .uye-tablo  input[type="submit"]{
 	
@@ -173,11 +204,13 @@ margin: 10px auto;
 .uye-td-1 {
 	width: 32%;
 	height: auto;
+	cursor: pointer;
 	
 }
 .uye-td-1:hover{
 	background-color: #3E81E8;
 	transition-duration: 1s;
+	color: beige;
 }
 
 

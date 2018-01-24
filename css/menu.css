@@ -71,11 +71,163 @@
 }
 
 
-.ana-icon{
-	width: 30px;
+
+
+
+
+
+
+
+
+
+
+/*mobıl menu respınsıve ayarları*/
+
+
+
+
+.mobil-menu-tas{
+	width: 100%;
+	height: auto;
+	background-color:azure;
+	display: none;
+	z-index: 100;
+}
+
+.menu-tas-2{
+	width: 100%;
+	height: auto;
+	z-index: 100;
+	
+}
+
+ #tikla{
+	display: none;
+}
+.mobil-menu-tas label{
+	display: none;
+	width: 32px;
+	height: 32px;
+	padding: 10px;
+	border-right: 2px solid black;
+}
+
+.mobil-menu-tas label:hover
+{
+	cursor: pointer;
+	background-color: #7899E5;
+	transition-duration: 1s;
+}
+
+ .menu-tas-2 >ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	
+	width: auto;
+	height: auto;
+	 background-color: aliceblue;
+}
+.menu-tas-2 ul li{
+	display: inline-block;
 	position: relative;
-	top: 10px;
-	right: 2px;
+	z-index: 100;
+}
+
+.menu-tas-2 ul li ul{
+	display: none;
+	position: absolute;
+	top: 0px;
+	z-index: 100;
+}
+
+.menu-tas-2 ul li:hover ul{
+	display: block;
+	position:absolute;
+	width: auto;
+	height: auto;
+	z-index: 100;
+}
+
+.menu-tas-2 ul li ul li{
+	display: block;
+	position: relative;
+	background-color: aliceblue;
+	z-index: 100;
+}
+
+
+
+.menu-tas-2 li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 20px;
+	color: #4E87EB;
+	font-weight: bold;
+	
+}
+.menu-tas-2 li a:hover
+{
+	background-color: #4E87EB;
+	color: azure;
+	transition-duration: 1s;
+}
+
+
+
+@media only screen and (max-width:1200px)
+
+{	
+
+		.menu-tas{
+			display: none;
+			z-index: 100;
+		}
+		.mobil-menu-tas{
+			display: block;
+		}
+	
+	  .mobil-menu-tas label{
+		display: block;
+		z-index: 100;
+	}
+	.mobil-menu-tas{
+		background-color:white;
+	}
+	
+	.menu-tas-2{
+		position: relative;
+		margin-left: -100%;
+		width: 100%;
+		
+		
+	}
+	
+	.menu-tas-2 ul li {
+		display: block;
+		z-index: 100;
+	}
+	
+	.menu-tas-2 ul{
+		float: left;
+		width: 50%;
+	}
+	.menu-tas-2 li{
+		text-align: left;
+	}
+	
+	
+	.menu-tas-2 ul li ul{
+	left:100%;
+	
+	}
+	#tikla:checked ~ .menu-tas-2{
+		margin-left: 0px;
+		transition-duration: all 1s;
+		z-index: 200;
+	}
 }
 
 

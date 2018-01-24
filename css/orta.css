@@ -4,13 +4,15 @@
 	min-height: 1000px;
 	background-color: aliceblue;
 	margin: 10px auto;
+	display: table;
 	opacity: 0.8;
+	text-align: center;
 }
 
 .sol-menu-tas{
 	position: relative;
 	float: left;
-	top: 10px;
+	top: 50px;
 	left: 1%;
 	width: 17%;
 	height: auto;
@@ -57,7 +59,7 @@ sol menu ayarları bitti
 	height: auto;
 	min-height: 600px;
 	display: table;
-	border: 1px solid #2927DB;
+	
 	left: 3%;
 	right: 3%;
 }
@@ -71,7 +73,7 @@ sol menu ayarları bitti
 	height: auto;
 	min-height: 300px; 
 	border: 1px solid black;
-	margin: 20px auto;
+	margin: 50px auto;
 	box-shadow: 0 7px 20px 4px #808080;
     z-index: 5px;
 }
@@ -184,7 +186,7 @@ orta icerik ayarları bitti
 	height: auto;
 	min-height: 600px;
 	display: table;
-	border: 1px solid black;
+	
 }
 
 .sag-menu-icerik{
@@ -192,7 +194,7 @@ orta icerik ayarları bitti
 	height: auto;
 	min-height: 300px;
 	border: 1px solid black;
-	margin: 10px auto;
+	margin: 50px auto;
 	position: relative;
 	top: 20px;
     box-shadow: 0 7px 20px 2px #808080;
@@ -230,3 +232,793 @@ sag menu ayarları bitti
 
 
 */
+
+
+
+
+
+
+
+
+
+/* responsıve ayarları baslangıc
+
+*/
+
+
+/* 1600px ayarları baslangıc*/
+
+
+
+@media only screen and (max-width: 1650px) {
+   	 
+	
+	.orta-govde-tas{
+	width: 80%;
+	height: auto;
+	min-height: 1000px;
+	
+}
+
+	.sol-menu-tas{
+        float: left;
+    }
+	
+	
+	.orta-icerik-tas{
+		position: relative;
+		text-align: center;
+		width: 64%;
+		left: 2%;
+		right: 3%;
+		height: auto;
+	min-height: 600px;
+	display: table;
+		float: left;
+	}
+
+
+
+
+
+
+.orta-icerik{
+	width: 80%;
+	height: auto;
+	min-height: 300px; 
+    z-index: 5px;
+}
+
+.makala-baslik{
+	
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #468EF0;
+	text-transform: capitalize;
+	padding: 6px 10px;
+	
+}
+
+
+.icerik-baslik li{
+	display: inline-block;
+	margin-left: 6px;
+	
+}
+
+.icerik-baslik li a{
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	padding: 8px 24px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #2555C5;
+	
+}
+
+.icerik-baslik li a:hover{
+	background-color: #1D60D5;
+	color: beige;
+	transition-duration: 0.8s;
+}
+.resim-tas{
+
+	margin: 10px auto;
+	border: 1px solid black;
+	width: 98%;
+	height: 200px
+	
+}
+.icerik-res{
+	
+	width: 20%;
+	height: 90px;
+	border:  1px solid black;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.resim-tas span{
+	position: relative;
+	font-size: 20px;
+	top: 10px;
+	left: 15px;
+	color: dimgray;
+}
+
+.icerik-alt{
+	position: relative;
+	background-color: #317EDB;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 1px;
+}
+
+
+.icerik-alt a{
+	position: relative;
+	float: right;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	padding: 15px 35px;
+	color: azure;
+}
+
+
+.icerik-alt a:hover{
+	color: #2876EF;
+	background-color: beige;
+	transition-duration: 0.8s;
+}
+
+}
+
+/* 1600px ayarları bıttı*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1400px ayarları baslangıc*/
+
+
+@media only screen and (max-width: 1400px) {
+   	 
+	.sag-menu-tas {
+        display: none;
+    }
+	.orta-govde-tas{
+	width: 96%;
+	height: auto;
+	min-height: 1000px;
+	
+}
+
+	.sol-menu-tas{
+        float: left;
+    }
+	
+	
+	.orta-icerik-tas{
+		position: relative;
+		text-align: center;
+		width: 80%;
+		left: 2%;
+		right: 2%;
+		height: auto;
+	min-height: 600px;
+	display: table;
+		float: left;
+	}
+
+
+
+
+
+
+.orta-icerik{
+	width: 96%;
+	height: auto;
+	min-height: 300px; 
+    z-index: 5px;
+}
+
+.makala-baslik{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #468EF0;
+	text-transform: capitalize;
+	padding: 6px 10px;
+	
+}
+
+.icerik-baslik ul{
+	list-style: none;
+	text-align: center;
+	
+}
+.icerik-baslik li{
+	display: inline-block;
+	margin-left: 10px;
+	
+}
+
+.icerik-baslik li a{
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+	padding: 8px 35px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #2555C5;
+	
+}
+
+.icerik-baslik li a:hover{
+	background-color: #1D60D5;
+	color: beige;
+	transition-duration: 0.8s;
+}
+.resim-tas{
+
+	margin: 10px auto;
+	border: 1px solid black;
+	width: 98%;
+	height: 200px
+	
+}
+.icerik-res{
+	
+	width: 20%;
+	height: 90px;
+	border:  1px solid black;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.resim-tas span{
+	position: relative;
+	font-size: 20px;
+	top: 10px;
+	left: 15px;
+	color: dimgray;
+}
+
+.icerik-alt{
+	position: relative;
+	background-color: #317EDB;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 1px;
+}
+
+
+.icerik-alt a{
+	position: relative;
+	float: right;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	padding: 15px 35px;
+	color: azure;
+}
+
+
+.icerik-alt a:hover{
+	color: #2876EF;
+	background-color: beige;
+	transition-duration: 0.8s;
+}
+
+}
+
+/* 1400px ayarları bıttı*/
+
+
+
+/* 1200px ayarları baslangıc*/
+
+@media only screen and (max-width: 1200px) {
+    .sol-menu-tas {
+        display: none;
+    }
+	
+	.orta-govde-tas{
+	width: 90%;
+	height: auto;
+	min-height: 1000px;
+	
+}
+
+	
+	
+	
+	.orta-icerik-tas{
+		position: relative;
+		text-align: center;
+		width: 96%;
+		left: 2%;
+		right: 2%;
+		height: auto;
+	min-height: 600px;
+	display: table;
+	}
+
+
+
+
+
+
+.orta-icerik{
+	width: 96%;
+	height: auto;
+	min-height: 300px; 
+    z-index: 5px;
+}
+
+.makala-baslik{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #468EF0;
+	text-transform: capitalize;
+	padding: 6px 10px;
+	
+}
+
+.icerik-baslik ul{
+	list-style: none;
+	text-align: center;
+	
+}
+.icerik-baslik li{
+	display: inline-block;
+	margin-left: 10px;
+	
+}
+
+.icerik-baslik li a{
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+	padding: 8px 35px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #2555C5;
+	
+}
+
+.icerik-baslik li a:hover{
+	background-color: #1D60D5;
+	color: beige;
+	transition-duration: 0.8s;
+}
+.resim-tas{
+
+	margin: 10px auto;
+	border: 1px solid black;
+	width: 98%;
+	height: 200px
+	
+}
+.icerik-res{
+	
+	width: 20%;
+	height: 90px;
+	border:  1px solid black;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.resim-tas span{
+	position: relative;
+	font-size: 20px;
+	top: 10px;
+	left: 15px;
+	color: dimgray;
+}
+
+.icerik-alt{
+	position: relative;
+	background-color: #317EDB;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 1px;
+}
+
+
+.icerik-alt a{
+	position: relative;
+	float: right;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	padding: 15px 35px;
+	color: azure;
+}
+
+
+.icerik-alt a:hover{
+	color: #2876EF;
+	background-color: beige;
+	transition-duration: 0.8s;
+}
+
+}
+
+/* 1200px ayarları bıttı*/
+
+
+
+/* 900px ayarları baslangıc*/
+
+@media only screen and (max-width: 900px) {
+.orta-icerik-tas{
+		position: relative;
+		text-align: center;
+		width: 96%;
+		left: 2%;
+		right: 2%;
+		height: auto;
+	min-height: 600px;
+	display: table;
+	}
+
+
+
+
+
+
+.orta-icerik{
+	width: 96%;
+	height: auto;
+	min-height: 300px; 
+    z-index: 5px;
+}
+
+.makala-baslik{
+	
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #468EF0;
+	text-transform: capitalize;
+	padding: 6px 10px;
+	
+}
+
+
+.icerik-baslik li{
+	display: inline-block;
+	margin-left: 10px;
+	
+}
+
+.icerik-baslik li a{
+	text-decoration: none;
+	font-size: 25px;
+	display: block;
+	padding: 6px 30px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #2555C5;
+	
+}
+
+
+.resim-tas{
+
+	margin: 10px auto;
+	border: 1px solid black;
+	width: 98%;
+	height: 200px
+	
+}
+.icerik-res{
+	
+	width: 20%;
+	height: 90px;
+	border:  1px solid black;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.resim-tas span{
+	position: relative;
+	font-size: 20px;
+	top: 10px;
+	left: 15px;
+	color: dimgray;
+}
+
+.icerik-alt{
+	position: relative;
+	background-color: #317EDB;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 1px;
+}
+
+
+.icerik-alt a{
+	position: relative;
+	float: right;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 8px 30px;
+	color: azure;
+}
+
+
+
+}
+
+
+
+
+
+/* 900px ayarları bitti*/
+
+
+
+/* 760px ayarları baslangıc*/
+
+
+@media only screen and (max-width: 760px) {
+.orta-icerik-tas{
+		position: relative;
+		text-align: center;
+		width: 96%;
+		left: 2%;
+		right: 2%;
+		height: auto;
+	min-height: 600px;
+	display: table;
+	}
+
+
+
+
+
+
+.orta-icerik{
+	width: 96%;
+	height: auto;
+	min-height: 300px; 
+    z-index: 5px;
+}
+
+.makala-baslik{
+	
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #468EF0;
+	text-transform: capitalize;
+	padding: 6px 10px;
+	
+}
+
+
+.icerik-baslik li{
+	display: inline-block;
+	margin-left: 6px;
+	
+}
+
+.icerik-baslik li a{
+	text-decoration: none;
+	font-size: 15px;
+	display: block;
+	padding: 4px 25px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #2555C5;
+	
+}
+
+
+.resim-tas{
+
+	margin: 10px auto;
+	border: 1px solid black;
+	width: 98%;
+	height: 200px
+	
+}
+.icerik-res{
+	
+	width: 20%;
+	height: 90px;
+	border:  1px solid black;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.resim-tas span{
+	position: relative;
+	font-size: 20px;
+	top: 10px;
+	left: 15px;
+	color: dimgray;
+}
+
+.icerik-alt{
+	position: relative;
+	background-color: #317EDB;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 1px;
+}
+
+
+.icerik-alt a{
+	position: relative;
+	float: right;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 8px 30px;
+	color: azure;
+}
+
+
+
+}
+
+
+
+
+
+/* 760px ayarları bitti*/
+
+
+
+
+
+
+
+
+/* 500px ayarları baslangıc*/
+
+@media only screen and (max-width: 550px) {
+.orta-icerik-tas{
+		position: relative;
+		text-align: center;
+		width: 96%;
+		left: 2%;
+		right: 2%;
+		height: auto;
+	min-height: 600px;
+	display: table;
+	}
+
+
+
+
+
+
+.orta-icerik{
+	width: 96%;
+	height: auto;
+	min-height: 300px; 
+    z-index: 5px;
+}
+
+.makala-baslik{
+	display: none;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: #468EF0;
+	text-transform: capitalize;
+	padding: 6px 10px;
+	
+}
+
+
+.icerik-baslik li{
+	display: inline-block;
+	margin-left: 2px;
+	
+}
+
+.icerik-baslik li a{
+	text-decoration: none;
+	font-size: 10px;
+	display: block;
+	padding: 4px 10px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #2555C5;
+	
+}
+
+
+.resim-tas{
+
+	margin: 10px auto;
+	border: 1px solid black;
+	width: 98%;
+	height: 200px
+	
+}
+.icerik-res{
+	
+	width: 30%;
+	height: 70px;
+	border:  1px solid black;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.resim-tas span{
+	position: relative;
+	font-size: 20px;
+	top: 10px;
+	left: 15px;
+	color: dimgray;
+}
+
+.icerik-alt{
+	position: relative;
+	background-color: #317EDB;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 1px;
+}
+
+
+.icerik-alt a{
+	position: relative;
+	float: right;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 30px;
+	color: azure;
+}
+
+
+
+}
+
+
+
+
+
+
+/* 500px ayarları bitti*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
