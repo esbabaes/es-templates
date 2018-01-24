@@ -8,6 +8,10 @@
 	<link rel="shortcut icon" href="kaynak/logo/logo-2.jpg"/>
 	
 	
+	<!--javascrıt alanı-->
+	<script type="text/javascript" src="js/main.js" language="javascript"></script>
+	<!--javascrıt alanı-->
+	
 	<link type="text/css" rel="stylesheet" href="css/footer.css"/>
 	<link type="text/css" rel="stylesheet" href="css/animasyon.css"/>
 	<link type="text/css" rel="stylesheet" href="css/orta.css"/>
@@ -33,10 +37,11 @@
 	<header class="header">
 	
 		<a href="index.html" ><img src="kaynak/logo/logo-1-kucuk.jpg" alt="logo" title="bi dunya.com" class="logo" /> </a>
+		<a href="index.html"><img src="kaynak/logo/logo-kucuk.jpg" alt="logo2" title="bi dunya.com" class="logo-2"/></a>
 		<span class="slogan">bi dunya.com</span>
 		<div class="form-alani"> 
 			
-			<form action="uye-ol.php" method="post" name="giris-form" >
+			<form action="#" method="post" name="giris-form" >
 				<table class="giris-tablo"  cellpadding="1" cellspacing="1" name="giris-tablo">
 					<tr>
 						<td id="t1" align="char"> <input type="text" name="nick-giris" placeholder="kullanici adiniz.."/></td>
@@ -44,7 +49,7 @@
 					</tr>
 				
 					<tr> <td id="t3" align="center"> <a href="uye-ol.html" >uye ol</a></td>
-					 <td id="t4" align="center" width="70px"> <input type="submit" value="giris yap"/></td></tr>
+					 <td id="t4" align="center" width="70px"> <input type="submit" value="giris yap" onClick="gir();"/></td></tr>
 				
 				
 				</table> 
@@ -61,7 +66,8 @@
 	</header>
 	<nav class="menu-tas"> 
 		<ul>
-		<li><a href="index.html"><img src="kaynak/logo/logo-1-kucuk.jpg" class="ana-icon" alt="anasayfa" title="anasayfa" />anasayfa</a></li>
+		
+		<li><a href="index.html">anasayfa</a></li>
 		<li><a href="#">programlar</a>
 				<ul>
 					<li><a href="#">linux</a></li>
@@ -98,7 +104,59 @@
 	
 	
 	</nav>
+
+<!-- mobıl menu ayarları baslangıc-->
+	<nav class="mobil-menu-tas">
+
+  <input type="checkbox" name="tikla" id="tikla" value="">
+  <label for="tikla"> <img src="kaynak/logo/es.png"/> </label>
+
+
+  <menu class="menu-tas-2">
+    <ul>
+		
+		<li><a href="index.html">anasayfa</a></li>
+		<li><a href="#">programlar</a>
+				<ul>
+					<li><a href="#">linux</a></li>
+					<li><a href="#">linux</a></li>
+					<li><a href="#">linux</a></li>
+					<li><a href="#">linux</a></li>
+			
+				</ul>
+			
+			
+			</li>
+		<li><a href="#">haberler</a></li>
+		<li><a href="#">blog</a></li>
+		<li><a href="#">iletisim</a>
+				<ul>
+					<li><a href="https://www.facebook.com/es.acizkul.es" target="_blank" >facebook</a></li>
+					<li><a href="https://twitter.com/esbabaes" target="_blank" >twitter</a></li>
+					<li><a href="#" target="_blank" >instagram</a></li>
+					<li><a href="#" target="_blank" >blog</a></li>
+					<li><a href="mailto:esbabaes37@hotmail.com" target="_blank" >gmail</a></li>
+			
+				</ul>
+			
+			
+			
+			</li>
+		<li><a href="#">hakkımızda</a></li>
+		
+		
+		
+		</ul>
+
+
+  </menu>
 	
+	
+	</nav>
+	
+<!-- mobıl menu ayarları bitis-->
+
+
 	<section class="orta-govde-tas">
 	
 	<aside class="sol-menu-tas">
@@ -162,7 +220,126 @@
 			<footer class="icerik-alt"><a href="#">devami...</a></footer>
 		</article>
 		
+		<article class="orta-icerik">
 		
+			<header class="icerik-baslik">
+				<h3 class="makala-baslik">makale baslik alani</h3>
+				<hr/>
+		<ul>
+			<li><a href="#">admin</a></li>
+			<li><a href="#">tarih</a></li>
+			<li><a href="#">katalog</a></li>
+			<li><a href="#">aciklama</a></li>
+			
+		</ul>	
+			
+			</header>
+			<hr/>
+			
+			<div class="resim-tas">
+		
+		<a href="#"><img src="kaynak/logo/logo-1-kucuk.jpg" class="icerik-res" alt="icerik-resim" title="resim" /></a>
+		<span>tanitim alanı</span>
+			
+			
+		
+			</div>
+			
+			
+			
+			<footer class="icerik-alt"><a href="#">devami...</a></footer>
+		</article>
+		
+		
+		<article class="orta-icerik">
+		
+			<header class="icerik-baslik">
+				<h3 class="makala-baslik">makale baslik alani</h3>
+				<hr/>
+		<ul>
+			<li><a href="#">admin</a></li>
+			<li><a href="#">tarih</a></li>
+			<li><a href="#">katalog</a></li>
+			<li><a href="#">aciklama</a></li>
+			
+		</ul>	
+			
+			</header>
+			<hr/>
+			
+			<div class="resim-tas">
+		
+		<a href="#"><img src="kaynak/logo/logo-1-kucuk.jpg" class="icerik-res" alt="icerik-resim" title="resim" /></a>
+		<span>tanitim alanı</span>
+			
+			
+		
+			</div>
+			
+			
+			
+			<footer class="icerik-alt"><a href="#">devami...</a></footer>
+		</article>
+		
+		<article class="orta-icerik">
+		
+			<header class="icerik-baslik">
+				<h3 class="makala-baslik">makale baslik alani</h3>
+				<hr/>
+		<ul>
+			<li><a href="#">admin</a></li>
+			<li><a href="#">tarih</a></li>
+			<li><a href="#">katalog</a></li>
+			<li><a href="#">aciklama</a></li>
+			
+		</ul>	
+			
+			</header>
+			<hr/>
+			
+			<div class="resim-tas">
+		
+		<a href="#"><img src="kaynak/logo/logo-1-kucuk.jpg" class="icerik-res" alt="icerik-resim" title="resim" /></a>
+		<span>tanitim alanı</span>
+			
+			
+		
+			</div>
+			
+			
+			
+			<footer class="icerik-alt"><a href="#">devami...</a></footer>
+		</article>
+		
+		<article class="orta-icerik">
+		
+			<header class="icerik-baslik">
+				<h3 class="makala-baslik">makale baslik alani</h3>
+				<hr/>
+		<ul>
+			<li><a href="#">admin</a></li>
+			<li><a href="#">tarih</a></li>
+			<li><a href="#">katalog</a></li>
+			<li><a href="#">aciklama</a></li>
+			
+		</ul>	
+			
+			</header>
+			<hr/>
+			
+			<div class="resim-tas">
+		
+		<a href="#"><img src="kaynak/logo/logo-1-kucuk.jpg" class="icerik-res" alt="icerik-resim" title="resim" /></a>
+		<span>tanitim alanı</span>
+			
+			
+		
+			</div>
+			
+			
+			
+			<footer class="icerik-alt"><a href="#">devami...</a></footer>
+		</article>
 		
 		</section>
 		
@@ -174,8 +351,38 @@
 			
 			
 			</div>
+			
+			<div class="sag-menu-icerik">
+			
+				<header class="sag-menu-icerik-baslik"><h4>baslik alani</h4></header>
+			
+			
+			</div>
+			
+			<div class="sag-menu-icerik">
+			
+				<header class="sag-menu-icerik-baslik"><h4>baslik alani</h4></header>
+			
+			
+			</div>
+			
+			<div class="sag-menu-icerik">
+			
+				<header class="sag-menu-icerik-baslik"><h4>baslik alani</h4></header>
+			
+			
+			</div>
+			
+			<div class="sag-menu-icerik">
+			
+				<header class="sag-menu-icerik-baslik"><h4>baslik alani</h4></header>
+			
+			
+			</div>
 		
 		</aside>
+		
+		
 		
 		
 		

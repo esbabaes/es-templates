@@ -1,170 +1,179 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="Content-Type"/>
-<meta name="Description" content="haber,spor,program" />
-	<link rel="shortcut icon" href="kaynak/logo/logo-2.jpg"/>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" />
+  <meta name="Description" content="haber,spor,program" />
+  <link rel="shortcut icon" href="kaynak/logo/logo-2.jpg" />
+
+  <!--javascrıt alanı-->
+  <script type="text/javascript" src="js/main.js" language="javascript"></script>
+  <!--javascrıt alanı-->
+
+  <link rel="stylesheet" href="css/uyelik.css" />
+  <link type="text/css" rel="stylesheet" href="css/orta.css" />
+  <link type="text/css" rel="stylesheet" href="css/menu.css" />
+  <link type="text/css" rel="stylesheet" href="css/header.css" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
 
 
-	<link rel="stylesheet" href="css/uyelik.css" />
-	<link type="text/css" rel="stylesheet" href="css/orta.css"/>
-	<link type="text/css" rel="stylesheet" href="css/menu.css"/>
-	<link type="text/css" rel="stylesheet" href="css/header.css"/>
-	<link type="text/css" rel="stylesheet" href="css/main.css"/>
-	
-	
-	 
-	
-	
-<title>bidunya.com</title>
-	
-	
-	
-	
+
+
+
+  <title>bidunya.com</title>
+
+
+
+
 </head>
 
 <body>
-	
-	<section class="uyelik-conteiner">
-	
-	<header class="header">
-	
-		<a href="index.html" ><img src="kaynak/logo/logo-1-kucuk.jpg" alt="logo" title="bi dunya.com" class="logo" /> </a>
-		<span class="slogan">bi dunya.com</span>
-		<div class="form-alani"> 
-			
-			<form action="uye-ol.php" method="post" name="giris-form" >
-				<table class="giris-tablo" border="0" cellpadding="1" cellspacing="1" name="giris-tablo">
-					<tr>
-						<td id="t1" align="center"> <input type="text" name="nick-giris" placeholder="kullanici adiniz.."/></td>
-						<td id="t2" align="center"> <input type="password" name="nick-sifre" placeholder="sifreniz.."/></td>
-					</tr>
-				
-					<tr> <td id="t3" align="center"> <a href="#" >uye ol</a></td>
-					 <td id="t4" align="center" width="70px"> <input type="submit" value="giris yap"/></td></tr>
-				
-				
-				</table> 
-			 
-			
-			</form>
-		
-		
-		
-		</div><!--giris form alani-->
-	
-	
-	
-	</header>
-	<nav class="menu-tas"> 
-		<ul>
-		<li><a href="index.html"><img src="kaynak/logo/logo-1-kucuk.jpg" class="ana-icon" alt="anasayfa" title="anasayfa" />anasayfa</a></li>
-		<li><a href="#">programlar</a>
-				<ul>
-					<li><a href="#">linux</a></li>
-					<li><a href="#">linux</a></li>
-					<li><a href="#">linux</a></li>
-					<li><a href="#">linux</a></li>
-			
-				</ul>
-			
-			
-			</li>
-		<li><a href="#">haberler</a></li>
-		<li><a href="#">blog</a></li>
-		<li><a href="#">iletisim</a></li>
-		<li><a href="#">hakkımızda</a></li>
-		
-		
-		
-		</ul>
-	
-	
-	
-	
-	</nav>
-	
-	<section class="uyelik-tas">
-	
-	<div class="uyelik-form">
 
+  <section class="uyelik-conteiner">
 
+    <header class="header">
 
+      <a href="index.html"><img src="kaynak/logo/logo-1-kucuk.jpg" alt="logo" title="bi dunya.com" class="logo" /> </a>
+      <span class="slogan">bi dunya.com</span>
+      <div class="form-alani">
 
-
-
-
-    <form id="uyelik-form" name="uyelik" action="#" method="post">
-
-        <table class="uye-tablo" border="1">
+        <form action="uye-ol.php" method="post" name="giris-form">
+          <table class="giris-tablo" border="0" cellpadding="1" cellspacing="1" name="giris-tablo">
             <tr>
-                <td class="uye-td-1" align="right"><label for="nickname">nick name</label></td>
-                <td class="uye-td-2" align="left">
-					<input id="nickname" name="nickname" type="text" placeholder="nickname"  min="5" maxlength="50" autofocus="on" autocomplete="on" required pattern="[A-Za-z0-9]{5,50}" title="kucuk ve buyuk harf gırınız ve an az 5 ve en fazla 50 karakter giriniz"/>
-				</td>
-				
+              <td id="t1" align="center"> <input type="text" name="nick-giris" placeholder="kullanici adiniz.." /></td>
+              <td id="t2" align="center"> <input type="password" name="nick-sifre" placeholder="sifreniz.." /></td>
             </tr>
+
             <tr>
-                <td class="uye-td-1" align="right"><label for="isim">isminiz</label></td>
-                <td class="uye-td-2" align="left">
-					<input id="isim" name="nickname" type="text" placeholder="isminiz"  min="5" maxlength="30"  autocomplete="on" required pattern="[A-Za-z0-9]{5,30}" title="kucuk ve buyuk harf gırınız ve an az 5 ve en fazla 30 karakter giriniz"/>
-				</td>
+              <td id="t3" align="center"> <a href="#">uye ol</a></td>
+              <td id="t4" align="center" width="70px"> <input type="submit" value="giris yap" /></td>
+            </tr>
+
+
+          </table>
+
+
+        </form>
+
+
+
+      </div>
+      <!--giris form alani-->
+
+
+
+    </header>
+    <nav class="menu-tas">
+      <ul>
+        <li><a href="index.html">anasayfa</a></li>
+        <li><a href="#">programlar</a>
+          <ul>
+            <li><a href="#">linux</a></li>
+            <li><a href="#">linux</a></li>
+            <li><a href="#">linux</a></li>
+            <li><a href="#">linux</a></li>
+
+          </ul>
+
+
+        </li>
+        <li><a href="#">haberler</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">iletisim</a></li>
+        <li><a href="#">hakkımızda</a></li>
+
+
+
+      </ul>
+
+
+
+
+    </nav>
+
+    <section class="uyelik-tas">
+
+      <div class="uyelik-form">
+
+
+
+
+
+
+
+        <form id="uyelik-form" name="uyelik" action="#" method="post">
+
+          <table class="uye-tablo" border="1">
+            <tr>
+              <td class="uye-td-1" align="right"><label for="nickname">nick name</label></td>
+              <td class="uye-td-2" align="left">
+                <input id="nickname" name="nickname" type="text" placeholder="nickname" min="5" maxlength="50" autofocus="on" autocomplete="on" required pattern="[A-Za-z0-9]{5,50}" title="kucuk ve buyuk harf gırınız ve an az 5 ve en fazla 50 karakter giriniz" />
+              </td>
+
             </tr>
             <tr>
-                <td  class="uye-td-1" align="right"><label for="soy-isim">soy isminiz</label></td>
-                <td class="uye-td-2" align="left">
-					<input id="soy-isim" name="nickname" type="text" placeholder="soy isminiz" min="5" maxlength="30"  autocomplete="on" required pattern="[A-Za-z0-9]{5,30}" title="kucuk ve buyuk harf gırınız ve an az 5 ve en fazla 30 karakter giriniz"/>
-				</td>
-			</tr>
-			<tr>
-                <td class="uye-td-1" align="right"><label for="tc-numara">tc numara</label></td>
-                <td class="uye-td-2" align="left">
-					<input id="tc-numara" name="nickname" type="text" placeholder="tc numara" min="11" maxlength="11"  autocomplete="on" required pattern="[0-9]{5,11}" title="sadece 11 haneli tc numaranızı giriniz"/>
-				</td>
-            </tr>
-			<tr>
-                <td class="uye-td-1" align="right"><label for="telefon">telefon</label></td>
-                <td class="uye-td-2" align="left">
-					<input id="telefon" name="nickname" type="tel" placeholder="telefon" min="5" maxlength="20"  autocomplete="on" required pattern="[0-9]{5,0}" title="an az 5 ve en fazla 30 haneli telefon numaranızı giriniz"/>
-				</td>
+              <td class="uye-td-1" align="right"><label for="isim">isminiz</label></td>
+              <td class="uye-td-2" align="left">
+                <input id="isim" name="nickname" type="text" placeholder="isminiz" min="5" maxlength="30" autocomplete="on" required pattern="[A-Za-z0-9]{5,30}" title="kucuk ve buyuk harf gırınız ve an az 5 ve en fazla 30 karakter giriniz" />
+              </td>
             </tr>
             <tr>
-                <td class="uye-td-1" align="right"><label for="email">email</label></td>
-                <td class="uye-td-2" align="left">
-					<input id="email" name="nickname" type="email"  placeholder="email" min="5" maxlength="50"  autocomplete="on" required />
-				</td >
+              <td class="uye-td-1" align="right"><label for="soy-isim">soy isminiz</label></td>
+              <td class="uye-td-2" align="left">
+                <input id="soy-isim" name="nickname" type="text" placeholder="soy isminiz" min="5" maxlength="30" autocomplete="on" required pattern="[A-Za-z0-9]{5,30}" title="kucuk ve buyuk harf gırınız ve an az 5 ve en fazla 30 karakter giriniz" />
+              </td>
             </tr>
             <tr>
-                <td class="uye-td-1" align="right"><label for="sifre">sifre</label></td>
-                <td class="uye-td-2" align="left"><input id="sifre" name="nickname" type="password" placeholder="sifre" min="5" maxlength="50"  required pattern="[A-Za-z0-9+-*/_?=&%+^'!]{5,50}" title="kucuk ve buyuk harf rakam yada ozel karakter gırınız ve an az 5 ve en fazla 50 karakter "/></td>
+              <td class="uye-td-1" align="right"><label for="tc-numara">tc numara</label></td>
+              <td class="uye-td-2" align="left">
+                <input id="tc-numara" name="nickname" type="text" placeholder="tc numara" min="11" maxlength="11" autocomplete="on" required pattern="[0-9]{5,11}" title="sadece 11 haneli tc numaranızı giriniz" />
+              </td>
             </tr>
             <tr>
-                <td class="uye-td-1" align="right"><label for="sifre-tekrar">sifre tekrar</label></td>
-                <td class="uye-td-2" align="left">
-					<input id="sifre-tekrar" name="nickname" type="password" placeholder="sifre tekrar" min="5" maxlength="50"   required pattern="[A-Za-z0-9+-*/_?=&%+^'!]{5,50}" title="kucuk ve buyuk harf rakam yada ozel karakter gırınız ve an az 5 ve en fazla 50 karakter "/>
+              <td class="uye-td-1" align="right"><label for="telefon">telefon</label></td>
+              <td class="uye-td-2" align="left">
+                <input id="telefon" name="nickname" type="tel" placeholder="telefon" min="5" maxlength="20" autocomplete="on" required pattern="[0-9]{5,0}" title="an az 5 ve en fazla 30 haneli telefon numaranızı giriniz" />
+              </td>
             </tr>
             <tr>
-                <td class="uye-td-1" align="right"><label for="sehir">sehir</label></td>
-                <td class="uye-td-2" align="left">
-					<input id="sehir" name="nickname" type="text" placeholder="sehir" min="3" maxlength="30" required pattern="[A-Za-z]{3,30}" title="sadcee buyuk kucuk harf giriniz en az 3 en fazla 30 karakter" />
-				</td>
-            </tr>
-			<tr>
-                <td class="uye-td-1" align="right"><label for="profil-resmi">profil resmi</label></td>
-                <td class="uye-td-2" align="left"><input id="profil-resmi" name="profil-resmi" type="file" placeholder="sehir"/></td>
+              <td class="uye-td-1" align="right"><label for="email">email</label></td>
+              <td class="uye-td-2" align="left">
+                <input id="email" name="nickname" type="email" placeholder="email" min="5" maxlength="50" autocomplete="on" required />
+              </td>
             </tr>
             <tr>
-                <td class="uye-td-1" align="right"><label for="cinsiyet">cinsiyet</label></td>
-                <td align="left">
-					<input id="cinsiyet" name="cinsiyet" type="radio" value="erkek"/><span>erkek</span>
-					<input id="cinsiyet" name="cinsiyet" type="radio" value="kadın"/><span>kadın</span>
+              <td class="uye-td-1" align="right"><label for="sifre">sifre</label></td>
+              <td class="uye-td-2" align="left"><input id="sifre" name="nickname" type="password" placeholder="sifre" min="5" maxlength="50" required pattern="[A-Za-z0-9+-*/_?=&%+^'!]{5,50}" title="kucuk ve buyuk harf rakam yada ozel karakter gırınız ve an az 5 ve en fazla 50 karakter "
+                /></td>
             </tr>
             <tr>
-                <td class="uye-td-1" align="center"><input id="vazgec" name="nickname" type="reset" value="vazgec"/></td>
-                <td class="uye-td-2" align="center"><input id="gonder" name="nickname" type="submit" value="gonder"/></td>
+              <td class="uye-td-1" align="right"><label for="sifre-tekrar">sifre tekrar</label></td>
+              <td class="uye-td-2" align="left">
+                <input id="sifre-tekrar" name="nickname" type="password" placeholder="sifre tekrar" min="5" maxlength="50" required pattern="[A-Za-z0-9+-*/_?=&%+^'!]{5,50}" title="kucuk ve buyuk harf rakam yada ozel karakter gırınız ve an az 5 ve en fazla 50 karakter "
+                />
             </tr>
-        </table>
+            <tr>
+              <td class="uye-td-1" align="right"><label for="sehir">sehir</label></td>
+              <td class="uye-td-2" align="left">
+                <input id="sehir" name="nickname" type="text" placeholder="sehir" min="3" maxlength="30" required pattern="[A-Za-z]{3,30}" title="sadcee buyuk kucuk harf giriniz en az 3 en fazla 30 karakter" />
+              </td>
+            </tr>
+            <tr>
+              <td class="uye-td-1" align="right"><label for="profil-resmi">profil resmi</label></td>
+              <td class="uye-td-2" align="left"><input id="profil-resmi" name="profil-resmi" type="file" placeholder="sehir" /></td>
+            </tr>
+            <tr>
+              <td class="uye-td-1" align="right"><label for="cinsiyet">cinsiyet</label></td>
+              <td align="left">
+                <input id="cinsiyet" name="cinsiyet" type="radio" value="erkek" /><span>erkek</span>
+                <input id="cinsiyet" name="cinsiyet" type="radio" value="kadın" /><span>kadın</span>
+            </tr>
+            <tr>
+              <td class="uye-td-1" align="center"><input id="vazgec" name="nickname" type="reset" value="vazgec" /></td>
+              <td class="uye-td-2" align="center"><input id="gonder" name="nickname" type="submit" value="gonder" onClick="es();" /></td>
+            </tr>
+          </table>
 
 
 
@@ -173,12 +182,16 @@
 
 
 
-    </form>
-	</div>
-		
-		<div> <marquee bgcolor="#1626D8" direction="left" loop="50" width="300px"  height="50px" style="color: aliceblue; font-size: 25px; font-weight: bold; line-height: 50px;">bi dunya hayat.com</marquee></div>
-	</section>
-		
-	</section><!--conteiner sonu-->
+        </form>
+      </div>
+
+      <div>
+        <marquee bgcolor="#1626D8" direction="left" loop="50" width="300px" height="50px" style="color: aliceblue; font-size: 25px; font-weight: bold; line-height: 50px;">bi dunya hayat.com</marquee>
+      </div>
+    </section>
+
+  </section>
+  <!--conteiner sonu-->
 </body>
+
 </html>
